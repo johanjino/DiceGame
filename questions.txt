@@ -1,0 +1,8 @@
+1. Agent goroutine still running when attempt to removing it. How to do this safely
+2. Where is `CreateHelloWorld` function used?
+3. Iteration vs Turns
+4. Do agents reset score?
+5. Broadcast message not send to itself right?
+6. No interface for Message Base class? Atleast not in helloworld
+
+Question to myself, some agents have score 20, how?
