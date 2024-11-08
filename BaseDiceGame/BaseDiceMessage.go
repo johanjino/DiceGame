@@ -1,4 +1,4 @@
-package DiceGame
+package BaseDiceGame
 
 import (
 	"github.com/MattSScott/basePlatformSOMAS/v2/pkg/message"

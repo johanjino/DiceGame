@@ -1,4 +1,4 @@
-package DiceGame
+package BaseDiceGame
 
 import (
 	"fmt"

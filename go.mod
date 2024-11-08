@@ -1,4 +1,4 @@
-module Simulator
+module Game
 
 go 1.23.2
 

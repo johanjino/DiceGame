@@ -2,12 +2,12 @@ package main
 
 
 import (
-	"Simulator/DiceGame"
+	"Game/BaseDiceGame"
 	"time"
 )
 
 func main() {
-	serv := DiceGame.CreateDiceServer(2, 5, 1, 12, 10*time.Millisecond, 100)
+	serv := BaseDiceGame.CreateDiceServer(2, 5, 1, 12, 10*time.Millisecond, 100)
 	//toggle message diagnostics
 	serv.ReportMessagingDiagnostics()
 	//begin simulation
