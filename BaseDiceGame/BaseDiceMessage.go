@@ -15,6 +15,9 @@ func (msg ScorePoolingMessage) InvokeMessageHandler (agent IDiceAgent){
 	agent.HandleScorePoolingMessage(msg)
 }
 
+
+// Bottom ACL is irrelevant at the moment
+
 // Agent Communication Language
 // {
 // 	"Type": "Message_Type",
